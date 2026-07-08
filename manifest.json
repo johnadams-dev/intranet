@@ -1,0 +1,15 @@
+{
+  "name": "Adams & Cameron Agent Portal",
+  "short_name": "Agent Portal",
+  "start_url": "/intranet/",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#0056b3",
+  "icons": [
+    {
+      "src": "apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
