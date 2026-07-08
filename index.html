@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adams & Cameron Agent Portal</title>
+    <title>Agent Portal</title>
 
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <link rel="apple-touch-icon" type="image/png" href="apple-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="ACC Agent Portal">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <link rel="manifest" href="manifest.json">
 
     <style>
         body {
@@ -32,7 +38,7 @@
         }
         .btn {
             display: inline-block;
-            background-color: #0056b3; /* Match your brand color */
+            background-color: #0056b3;
             color: white;
             padding: 12px 24px;
             text-decoration: none;
@@ -48,23 +54,18 @@
             max-width: 280px;
         }
     </style>
-
-    <meta http-equiv="refresh" content="3; url=https://accounts.google.com/AccountChooser?hd=adamscameron.com&continue=https://sites.google.com/adamscameron.com/agent-portal-v2">
 </head>
 <body>
-
-    <img src="https://accagents.com/apple-icon.png" alt="Logo" class="logo">
-
+    <img src="apple-icon.png" alt="Logo" class="logo">
     <h2>Agent Portal</h2>
-    <p>Redirecting you to Google verification...</p>
-    
+    <p>Tap below to sign in with your adamscameron.com account.</p>
+
     <a class="btn" href="https://accounts.google.com/AccountChooser?hd=adamscameron.com&continue=https://sites.google.com/adamscameron.com/agent-portal-v2">
-        Click to Log In Now
+        Sign in to Agent Portal
     </a>
 
     <div class="instructions">
-        <strong>To save as an App:</strong> Tap the Share button <span style="font-size:1.2rem;">⎋</span> below and select <strong>'Add to Home Screen'</strong> before logging in.
+        <strong>First time here?</strong> Tap the Share button below and choose <strong>"Add to Home Screen"</strong> so you can open this anytime without typing the address.
     </div>
-
 </body>
 </html>
