@@ -1,7 +1,8 @@
 {
   "name": "Adams & Cameron Agent Portal",
   "short_name": "Agent Portal",
-  "start_url": "/intranet/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f8f9fa",
   "theme_color": "#0056b3",
