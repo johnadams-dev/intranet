@@ -3,7 +3,7 @@
   "short_name": "Agent Portal",
   "start_url": "/",
   "scope": "/",
-  "display": "standalone",
+  "display": "browser",
   "background_color": "#f8f9fa",
   "theme_color": "#0056b3",
   "icons": [
